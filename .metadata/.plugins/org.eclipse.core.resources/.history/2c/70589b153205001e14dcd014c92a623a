@@ -1,0 +1,20 @@
+package ayh;
+
+import java.util.Scanner;
+
+public class ayhh {
+	public static void main(String[] args) {
+		Scanner inputScanner = new Scanner(System.in);
+		System.out.println("Yil Giriniz: ");
+		int year = inputScanner.nextInt();
+		
+		if ((year % 4 == 0) || (year % 400 == 0)) {
+			System.out.println(year + "Artik Yildir");
+			
+		}else {
+			System.out.println("Artik Yil Degildir");
+		}
+		
+	}
+
+}
